@@ -105,6 +105,7 @@ function appendList(myObj) {
         category.value = targetCategory
 
         editButton.parentElement.remove() 
+        localStorage.removeItem(targetdesc)
 
     })
 
